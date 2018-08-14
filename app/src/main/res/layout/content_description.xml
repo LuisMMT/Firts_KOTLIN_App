@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nameDetail"
+        tool:text="Name"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transitionName"
+        />
+    <TextView
+        android:id="@+id/titleDetail"
+        tool:text="titulo"
+        android:textSize="18dp"
+        android:transitionName="transitionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/priceDetail"
+        android:transitionName="transitionPrice"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="end"
+        tool:text="Precio"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/separateView10x"
+        android:text="@string/loremIpsum"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
