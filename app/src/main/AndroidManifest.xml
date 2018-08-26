@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name="ni.com.zoes.kotlinstore.View.Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.DetailActivity"></activity>
+        <activity android:name="ni.com.zoes.kotlinstore.View.Activity.DetailActivity" />
+        <activity android:name="ni.com.zoes.kotlinstore.View.Activity.ShopCartActivity"></activity>
     </application>
 
 </manifest>
